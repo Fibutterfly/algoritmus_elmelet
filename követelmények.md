@@ -1,0 +1,4 @@
+- 6. héten ZH
+- 13. ZH 2
+- 14. javító
+- megajánlott
