@@ -1,2 +1,15 @@
-![[1.óra]]
-
+# 1. óra
+![[algoritmus#algoritmus definíciója]]
+![[függvények nagyságrendje#ordó]]
+![[függvények nagyságrendje#omega]]
+![[függvények nagyságrendje#theta]]
+![[páros gráf#Páros gráf definíciója]]
+![[teljes párosítás#Teljes párosítás definíciója]]
+![[arthur_kiraly_civilizacios_torekvesei#Arthur király civilizáció törekvései]]
+![[Dinamikus programozás#Dinamikus programozás definíciója]]
+![[logaritmus összefüggések#azonos alapú logaritmus összeadása]]
+![[logaritmus összefüggések#logaritmus a valahányadikon]]
+![[logaritmus összefüggések#különböző alapú logaritmusok szorzata, ha alapok és a hatványok megegyeznek]]
+![[logaritmus összefüggések#logaritmus alap váltás]]
+![[Függvény nagyságrendes példa feladatok]]
+# 2. óra

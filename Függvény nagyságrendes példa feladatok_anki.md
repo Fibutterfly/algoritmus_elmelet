@@ -7,9 +7,6 @@ Front:
 Mit jelent függvények nagyságrendjében a O?
 Back:
 Mindig azt keressük, hogy ha az $n$ növekszik melyik az a $c$, amire igaz, hogy $f(n) \le c*g(n)$ (melyik az a $c$)
-Mindig azt keressük, hogy ha az $n$ növekszik melyik az a $c$, amire igaz, hogy $f(n) \ge c*g(n)$ (melyik az a $c$)
-Ha $O$ és $\Omega$ is létezik akkor ez is (főleg ha találunk közös $c$-t)
-ha $f=c*g$ akkor $f = \Theta(g)$
 <!--ID: 1678660032965-->
 END
 
@@ -18,10 +15,7 @@ Algoelm_Basic
 Front:
 Mit jelent függvények nagyságrendjében a $\Omega$?
 Back:
-Mindig azt keressük, hogy ha az $n$ növekszik melyik az a $c$, amire igaz, hogy $f(n) \le c*g(n)$ (melyik az a $c$)
 Mindig azt keressük, hogy ha az $n$ növekszik melyik az a $c$, amire igaz, hogy $f(n) \ge c*g(n)$ (melyik az a $c$)
-Ha $O$ és $\Omega$ is létezik akkor ez is (főleg ha találunk közös $c$-t)
-ha $f=c*g$ akkor $f = \Theta(g)$
 <!--ID: 1678660032974-->
 END
 
@@ -30,8 +24,6 @@ Algoelm_Basic
 Front:
 Mit jelent függvények nagyságrendjében a $\Theta$?
 Back:
-Mindig azt keressük, hogy ha az $n$ növekszik melyik az a $c$, amire igaz, hogy $f(n) \le c*g(n)$ (melyik az a $c$)
-Mindig azt keressük, hogy ha az $n$ növekszik melyik az a $c$, amire igaz, hogy $f(n) \ge c*g(n)$ (melyik az a $c$)
 Ha $O$ és $\Omega$ is létezik akkor ez is (főleg ha találunk közös $c$-t)
 ha $f=c*g$ akkor $f = \Theta(g)$
 <!--ID: 1678660032981-->
@@ -151,4 +143,134 @@ Back:
 - $max(f,g) \le c*f+c*g$ ez akár $1$-el is igaz ($O$ oldal)
 - $\Omega$ és $O$ is igaz, így $\Theta$ is az
 <!--ID: 1678660033040-->
+END
+
+
+START
+Algoelm_Basic
+Front:
+rakjuk sorba
+![[Pasted image 20230320213439.png]]
+Back:
+![[Pasted image 20230320213445.png]]
+#Rita/AlgoKieg
+<!--ID: 1679349124180-->
+END
+
+
+START
+Algoelm_Basic
+Front:
+Az $\cal{A}$ algoritmusról tudjuk, hogy $n$ hosszú bemeneteken a lépésszáma $O(n^2)$
+lehetséges-e, hogy minden $n$ hosszú bemeneten $O(n)$ lépést használ?
+Back:
+![[Pasted image 20230320214424.png]]
+![[Pasted image 20230320214514.png]]
+#Rita/AlgoKieg
+<!--ID: 1679349124194-->
+END
+
+START
+Algoelm_Basic
+Front:
+Következik-e a feltételből, hogy minden $n$ hosszú bemeneten $O(n)$ lépést használ?
+Back:
+![[Pasted image 20230320214427.png]]
+![[Pasted image 20230320214527.png]]
+#Rita/AlgoKieg
+<!--ID: 1679349124202-->
+END
+
+START
+Algoelm_Basic
+Front:
+rakjuk sorba
+![[Pasted image 20230320213439.png]]
+Back:
+![[Pasted image 20230320213445.png]]
+<!--ID: 1679349124180-->
+END
+
+
+START
+Algoelm_Basic
+Front:
+Az $\cal{A}$ algoritmusról tudjuk, hogy $n$ hosszú bemeneteken a lépésszáma $O(n^2)$
+lehetséges-e, hogy minden $n$ hosszú bemeneten $O(n)$ lépést használ?
+Back:
+![[Pasted image 20230320214424.png]]
+![[Pasted image 20230320214514.png]]
+<!--ID: 1679349124194-->
+END
+
+START
+Algoelm_Basic
+Front:
+Következik-e a feltételből, hogy minden $n$ hosszú bemeneten $O(n)$ lépést használ?
+Back:
+![[Pasted image 20230320214427.png]]
+![[Pasted image 20230320214527.png]]
+<!--ID: 1679349124202-->
+END
+
+START
+Algoelm_Basic
+Front:
+Az $\cal{A}$ algoritmusról tudjuk, hogy $n$ hosszú bemeneteken a lépésszáma $O(n^2)$
+Lehetséges-e, hogy van olyan $x$, hogy az x bemeneten az algoritmus lépésszáma $10|x|^2 log |x| − 800$ (ahol $|x|$ az $x$ bemenet hosszát jelöli)?
+Back:
+![[Pasted image 20230320214429.png]]
+![[Pasted image 20230320214540.png]]
+<!--ID: 1679349124210-->
+END
+
+START
+Algoelm_Basic
+Front:
+Egy $\cal{A}$ algoritmusról tudjuk, hogy az $n$ hosszú bemeneteken a lépésszáma $O(n*\log(n))$.
+Lehetséges-e, hogy van olyan $x$ bemenet, amin a lépésszáma $|x|^3$ ?
+Back:
+![[Pasted image 20230320220743.png]]
+![[Pasted image 20230320220818.png]]
+<!--ID: 1679349124217-->
+END
+
+START
+Algoelm_Basic
+Front:
+Egy $\cal{A}$ algoritmusról tudjuk, hogy az $n$ hosszú bemeneteken a lépésszáma $O(n*\log(n))$.
+Lehetséges-e minden $x$ bemeneten legfeljebb $2007|x|$ lépést használ? (Itt $|x|$ az $x$ szó hosszát jelöli.)
+Back:
+![[Pasted image 20230320220743.png]]
+![[Pasted image 20230320220835.png]]
+<!--ID: 1679349124224-->
+END
+
+START
+Algoelm_Basic
+Front:
+jelölje egy algoritmus maximális lépésszámát az $n$ hosszú bemeneteken $L(n)$. Tudjuk, hogy minden $n > 3$ egész számra $L(n) ≤ L(n − 1) + \cfrac{n}{2}$,  és hogy $L(3) = 3$. Következik-e ebből, hogy az algoritmus lépésszáma $O(n^2)$ ?
+Rekruzívan
+Back:
+![[Pasted image 20230320221336.png]]
+<!--ID: 1679349124231-->
+END
+
+START
+Algoelm_Basic
+Front:
+jelölje egy algoritmus maximális lépésszámát az $n$ hosszú bemeneteken $L(n)$. Tudjuk, hogy minden $n > 3$ egész számra $L(n) ≤ L(n − 1) + \cfrac{n}{2}$,  és hogy $L(3) = 3$. Következik-e ebből, hogy az algoritmus lépésszáma $O(n^2)$ ?
+Teljes inducióval
+Back:
+![[Pasted image 20230320221355.png]]
+<!--ID: 1679349124239-->
+END
+
+START
+Algoelm_Basic
+Front:
+igaz-e, hogy $f = O(g)$ és $g = O(h)$, akkor $f = O(h)$ ?
+Back:
+![[Pasted image 20230320221554.png]]
+<!--ID: 1679349124246-->
 END

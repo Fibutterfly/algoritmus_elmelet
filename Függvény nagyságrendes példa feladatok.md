@@ -95,3 +95,43 @@ ha $f=c*g$ akkor $f = \Theta(g)$
 - $max(f,g) \ge c*f+c*g \rightarrow c=\dfrac{1}{2}$ ($\Omega$ oldal)
 - $max(f,g) \le c*f+c*g$ ez akár $1$-el is igaz ($O$ oldal)
 - $\Omega$ és $O$ is igaz, így $\Theta$ is az
+
+# rakjuk sorba
+![[Pasted image 20230320213439.png]]
+![[Pasted image 20230320213445.png]]
+#Rita/AlgoKieg
+
+# Az $\cal{A}$ algoritmusról tudjuk, hogy $n$ hosszú bemeneteken a lépésszáma $O(n^2)$
+## lehetséges-e, hogy minden $n$ hosszú bemeneten $O(n)$ lépést használ?
+![[Pasted image 20230320214424.png]]
+![[Pasted image 20230320214514.png]]
+#Rita/AlgoKieg 
+## Következik-e a feltételből, hogy minden $n$ hosszú bemeneten $O(n)$ lépést használ?
+![[Pasted image 20230320214427.png]]
+![[Pasted image 20230320214527.png]]
+#Rita/AlgoKieg 
+## Lehetséges-e, hogy van olyan $x$, hogy az x bemeneten az algoritmus lépésszáma $10|x|^2 log |x| − 800$ (ahol $|x|$ az $x$ bemenet hosszát jelöli)?
+![[Pasted image 20230320214429.png]]
+![[Pasted image 20230320214540.png]]
+#Rita/AlgoKieg 
+# Egy $\cal{A}$ algoritmusról tudjuk, hogy az $n$ hosszú bemeneteken a lépésszáma $O(n*\log(n))$. 
+## Lehetséges-e, hogy van olyan $x$ bemenet, amin a lépésszáma $|x|^3$ ? 
+![[Pasted image 20230320220743.png]]
+![[Pasted image 20230320220818.png]]
+#Rita/AlgoKieg 
+## Lehetséges-e minden $x$ bemeneten legfeljebb $2007|x|$ lépést használ? (Itt $|x|$ az $x$ szó hosszát jelöli.)
+![[Pasted image 20230320220743.png]]
+![[Pasted image 20230320220835.png]]
+#Rita/AlgoKieg 
+
+# jelölje egy algoritmus maximális lépésszámát az $n$ hosszú bemeneteken $L(n)$. Tudjuk, hogy minden $n > 3$ egész számra $L(n) ≤ L(n − 1) + \cfrac{n}{2}$,  és hogy $L(3) = 3$. Következik-e ebből, hogy az algoritmus lépésszáma $O(n^2)$ ?
+## Rekruzívan
+![[Pasted image 20230320221336.png]]
+#Rita/AlgoKieg 
+## Teljes inducióval
+![[Pasted image 20230320221355.png]]
+#Rita/AlgoKieg 
+
+# igaz-e, hogy $f = O(g)$ és $g = O(h)$, akkor $f = O(h)$ ?
+![[Pasted image 20230320221554.png]]
+#Rita/AlgoKieg 
