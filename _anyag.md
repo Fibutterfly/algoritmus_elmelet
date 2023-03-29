@@ -1,4 +1,4 @@
-# 1. óra
+# 1. és 2. óra
 ![[algoritmus#algoritmus definíciója]]
 ![[függvények nagyságrendje#ordó]]
 ![[függvények nagyságrendje#omega]]
@@ -12,4 +12,9 @@
 ![[logaritmus összefüggések#különböző alapú logaritmusok szorzata, ha alapok és a hatványok megegyeznek]]
 ![[logaritmus összefüggések#logaritmus alap váltás]]
 ![[Függvény nagyságrendes példa feladatok]]
-# 2. óra
+# 3. óra
+![[Dijkstra módszere#Dijkstra]]
+![[szélességi bejárás#Szélességi bejárás]]
+![[szélességi bejárás#Példa feladatok]]
+![[legrövidebb utak#legrövidebb utak]]
+![[legrövidebb utak#legrövidebb utas példák]]
