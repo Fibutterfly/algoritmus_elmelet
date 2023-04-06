@@ -18,3 +18,12 @@
 ![[szélességi bejárás#Példa feladatok]]
 ![[legrövidebb utak#legrövidebb utak]]
 ![[legrövidebb utak#legrövidebb utas példák]]
+![[központi halmaz#központi halmaz]]
+![[irányított körmentes gráf (DAG)#irányított körmentes gráf DAG]]
+![[mélységi bejárás (DFS)#mélységi bejárás]]
+![[mélységi bejárás (DFS)#mélységi bejárásos példa feladatok]]
+# 4. óra
+![[Dijkstra módszere#Dijkstra algoritmus tulajdonságai]]
+![[Dijkstra módszere#Kérdések Dijkstra algoritmushoz]]
+![[Bellman-Ford#Bellman-Ford]]
+![[Bellman-Ford#példák Bellman-ford-hoz]]

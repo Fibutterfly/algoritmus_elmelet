@@ -3,5 +3,8 @@ tags: OE/ALKMAT/Algoelm
 aliases : []
 ---
 # legrövidebb utak
-itt tartok (súlyok 1,2,3 feladat)
+[[Dijkstra módszere|dijkstra]] leginkább
 # legrövidebb utas példák
+## 1. példa
+![[Pasted image 20230406192406.png]]
+![[Pasted image 20230406192414.png]]
